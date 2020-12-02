@@ -19,4 +19,4 @@ def huffmanTree(a: list):
         a.append(b)
         a.sort(key=lambda x: x.data, reverse=True)
 
-    return a
+    return a[0]
