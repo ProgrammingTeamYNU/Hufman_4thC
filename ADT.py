@@ -4,7 +4,6 @@ class Node:
         self.lchild = lchild
         self.rchild = rchild
 
-
 def huffmanTree(a: list):
     # 认为每一个字符都是节点,如果不是,那就让它是
     if type(a[0]) != Node:
